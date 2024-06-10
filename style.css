@@ -13,11 +13,14 @@ body {
 .container {
     text-align: center;
     background-color: #1f2937; /* Slightly lighter dark color */
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 300px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -36,7 +39,8 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .input-group input {
@@ -67,7 +71,7 @@ label {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
